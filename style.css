@@ -1,132 +1,137 @@
-
- 
-html, body {
-    margin: 0px;
-    padding: 0px;
-    font-family: "Ubuntu", sans-serif;
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
 }
 table {
-    border-collapse: collapse;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 160px;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 12px;
-    font-size: 30px;
-  }
-  tr:nth-child(odd){
-    background-color: rgb(252, 252, 252);
-    color: black;
-  }
-  tr:nth-child(even) {
-    background-color: rgb(5, 202, 228);
-  } 
-  a{
-    text-decoration: none;
-    font-size: 24px;
-    padding: 10px;
-    color: snow;
-  }
-  a:hover{
-    color:springgreen;
-  }
-  .page1{
-    background-image: url("circle-blues.png");
-    padding: 50px;
-    color: snow;
-    font-size: 40px;
-  }
-  .page1 p{
-    margin-right: 300px;
-  }
-  .covcar{
-    width: 320px;
-    height: 320px;
-    margin-left: 980px;
-    margin-top: -250px;
-  }
-  #home{
-    font-size: 80px;
-    color: snow;
-    margin-right: 100px;
-  }
-  .tips{
-    background-image: url("leaves-patternwhite.png");
-    margin-top: -22px;
-    padding: 25px;
-    font-size: 40px;
-  }
-  #Tips{
-    font-size: 70px ;
-    text-align: center;
-  }
-  .hand{
-    width: 170px;
-    height: 170px;
-    margin-left: 750px;
-    margin-top: -800px;
-  }
-  .wash{
-    width: 1000px;
-    height: 200px;
-    margin: auto;
-    border: 2px solid black;
-box-sizing: border-box;
-border-radius: 40px;
-  }
-.mask{
-  width: 1000px;
-    height: 200px;
-    margin: auto;
-    border: 2px solid black;
-box-sizing: border-box;
-border-radius: 40px;
-margin-top: 30px;
+  border-collapse: collapse;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 160px;
 }
-.maskp{
-  width: 170px;
-    height: 170px;
-    margin-left: 750px;
-    margin-top: -800px;
-}
-.symp{
-  background-image: url("circle-blues.png");
-    padding: 25px;
-    color: snow;
-    font-size: 40px;
-    text-align: center;
 
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 12px;
+  font-size: 30px;
 }
-.faq{
+tr:nth-child(odd) {
+  background-color: rgb(252, 252, 252);
+  color: black;
+}
+tr:nth-child(even) {
+  background-color: rgb(5, 202, 228);
+}
+a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px;
+  color: snow;
+}
+a:hover {
+  color: springgreen;
+}
+.page1 {
+  background-image: url("circle-blues.png");
+  padding: 50px;
+  color: snow;
+  font-size: 40px;
+}
+.page1 p {
+  margin-right: 300px;
+}
+.covcar {
+  width: 320px;
+  height: 320px;
+  margin-left: 980px;
+  margin-top: -250px;
+}
+#home {
+  font-size: 80px;
+  color: snow;
+  margin-right: 100px;
+  margin-right: 350px;
+}
+.tips {
   background-image: url("leaves-patternwhite.png");
   margin-top: -22px;
   padding: 25px;
-    font-size: 24px;
-
+  font-size: 40px;
+  padding-bottom: 90px;
 }
-#FAQ{
-  font-size: 70px ;
-    text-align: center;
+#Tips {
+  font-size: 70px;
+  text-align: center;
 }
-#who{
+.hand {
+  width: 170px;
+  height: 170px;
+  margin-left: 750px;
+  margin-top: -800px;
+}
+.wash {
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+.mask {
+  width: 1000px;
+  height: 200px;
+  margin: auto;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+.maskp {
+  width: 170px;
+  height: 170px;
+  margin-left: 750px;
+  margin-top: -800px;
+}
+.symp {
+  background-image: url("circle-blues.png");
+  padding: 25px;
+  color: snow;
+  font-size: 40px;
+  text-align: center;
+}
+.faq {
+  background-image: url("leaves-patternwhite.png");
+  margin-top: -22px;
+  padding: 25px;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+#FAQ {
+  font-size: 70px;
+  text-align: center;
+}
+#who {
   color: rgb(61, 61, 61);
 }
-.you{
+.you {
   background-image: url("circle-blues.png");
-    padding: 25px;
-    color: snow;
-    font-size: 40px;
-    text-align: center;
+  padding: 25px;
+  color: snow;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 110px;
 }
-.end{
+.end {
   background-image: url("leaves-patternwhite.png");
   margin-top: -22px;
   padding: 25px;
   text-align: center;
+}
+#youtube {
+  padding-bottom: 30px;
 }
